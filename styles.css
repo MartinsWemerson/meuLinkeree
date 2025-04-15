@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    gap: 0;
+}
+body{
+    background-color:  hsl(0, 0%, 8%);
+    color: hsl(0, 0%, 100%);
+    display: flex;
+    justify-content: center;
+    font-family: "Inter", sans-serif;
+    margin-top: 7em;
+}
+main{
+    background-color:hsl(0, 0%, 12%) ;
+    width: 20rem;
+    height: 34rem;
+    border-radius: 10px;
+}
+main section{
+   
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    flex-direction: column;   
+}
+main section.topo{
+    gap: 0.2rem;
+       
+}
+main section img{
+    width: 5rem;
+    border-radius: 100%;
+    margin-top: 2rem;
+    margin-bottom: 1.2rem;
+}
+main section #pais{
+    color: hsl(75, 94%, 57%);
+    font-size: small;
+}
+main section #descricao{
+    font-size: small;
+}
+main section.principal{
+    
+    list-style: none;
+    margin: 1.2rem;
+}
+main section.principal p{
+    margin-bottom: 1rem;
+}
+main section.principal li ul{
+    margin-bottom: 0.8rem;
+}
+main section button, a{
+    background-color: hsl(0, 0%, 20%);
+    color:  hsl(0, 0%, 100%);
+    border: none;
+    font-weight: 700;
+    border-radius: 10px;
+    width: 17rem;
+    height: 48px;
+    text-decoration: none;
+}
+main section button:hover{
+    color: hsl(0, 0%, 20%);
+    background-color: hsl(75, 94%, 57%);
+    cursor: pointer;
+    font-weight: 800;
+}
+main section  button:focus{
+    background-color: hsl(0, 0%, 20%);
+    color: hsl(75, 94%, 57%);
+    cursor: pointer;
+    
+}
